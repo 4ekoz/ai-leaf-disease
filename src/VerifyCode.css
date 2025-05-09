@@ -1,0 +1,38 @@
+.verify-code-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.verify-code-container h2 {
+  color: #333;
+}
+
+.verify-code-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.verify-code-container button {
+  width: 100%;
+  padding: 12px 25px; /* تعديل الـ padding عشان يكون أكبر شوية */
+  background-color: #386641; /* تغيير لون الخلفية للأخضر الغامق */
+  color: white;
+  border: none;
+  border-radius: 8px; /* تعديل الـ border-radius عشان يكون أكبر شوية */
+  font-size: 16px; /* إضافة حجم الخط */
+  cursor: pointer;
+  max-width: 300px; /* إضافة أقصى عرض للزر */
+  margin: 20px auto; /* إضافة هامش وتوسيط الزر */
+}
+
+.verify-code-container button:hover {
+  background-color: #2E8B57; /* تغيير لون الخلفية عند الوقوف على الزر */
+}

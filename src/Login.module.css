@@ -1,0 +1,216 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.loginBox {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.loginTitle {
+    color: #2D5A27;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.welcomeText {
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.inputGroup {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputGroup input {
+    width: calc(100% - 55px);
+    padding: 12px 40px 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    background-color: #fff;
+}
+
+.inputGroup input:focus {
+    outline: none;
+    border-color: #2D5A27;
+}
+
+.inputIcon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 16px;
+}
+
+.errorText {
+    color: #dc3545;
+    font-size: 12px;
+    margin: -15px 0 15px 0;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.btnLogin {
+    width: 100%;
+    padding: 12px;
+    background-color: #2D5A27;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.btnLogin:hover:not(.disabledBtn) {
+    background-color: #234820;
+}
+
+.btnLogin:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.forgetPasswordContainer {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.forgetPasswordLink {
+    color: #2D5A27;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    direction: rtl;
+}
+
+
+
+.forgetPasswordLink:hover {
+    color: #234820;
+    text-decoration: underline;
+}
+
+.modalLogin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.loginBox h2 {
+    color: #2D5A27;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.loginBox p {
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.passwordToggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #666;
+}
+
+.orText {
+    text-align: center;
+    color: #666;
+    margin: 25px 0;
+    position: relative;
+    font-size: 14px;
+}
+
+.orText::before,
+.orText::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background: #e0e0e0;
+}
+
+.orText::before {
+    left: 0;
+}
+
+.orText::after {
+    right: 0;
+}
+
+.googleLoginContainer {
+    margin: 25px 0;
+}
+
+.googleBtn {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.googleBtn:hover {
+    background-color: #f5f5f5;
+}
+
+.signupLink {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.signupLink a {
+    color: #2D5A27;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.signupLink a:hover {
+    text-decoration: underline;
+    color: #234820;
+}

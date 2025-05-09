@@ -1,0 +1,125 @@
+/* PlantCheck.css */
+
+.plantCheck-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0fff4; /* لون خلفية قريب من الطبيعة */
+}
+
+.plantCheck-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9fff5; /* لون خفيف يشبه الطبيعة */
+    position: relative;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2cbe4e; /* لون أخضر طبيعي */
+    color: white;
+    border: none;
+    border-radius: 24px; /* زر دائري */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #229933; /* لون أخضر داكن عند التفاعل */
+}
+
+.upload-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.check-plant-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2cbe4e; /* لون أخضر طبيعي */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.check-plant-button:hover {
+    background-color: #229933; /* لون أخضر داكن عند التفاعل */
+}
+
+.result-box {
+    margin-top: 20px;
+}
+
+.success-text {
+    color: green;
+}
+
+.error-text {
+    color: red;
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f9fff5;
+    border: 1px solid #dfebd0;
+}
+
+.result-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-table td:first-child {
+    font-weight: bold;
+    color: #2c3e50;
+    width: 120px;
+}
+
+.uploaded-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تخصيص الجدول للنتائج */
+.result-table td {
+    padding: 10px;
+    border: 1px solid #dfebd0;
+    text-align: center;
+}
+
+.result-table tr:nth-child(even) {
+    background-color: #f9fff5;
+}
+
+.result-table tr:last-child td {
+    border-bottom: none;
+}
+
+.result-table tr td:first-child {
+    background-color: #eafde7; /* خلفية خفيفة للعنوان */
+}

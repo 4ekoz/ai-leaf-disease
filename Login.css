@@ -1,0 +1,210 @@
+/* خلفية الصفحة */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* الصندوق الرئيسي */
+  .login-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  /* العنوان */
+  .login-title {
+    color: #2d5c3f;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  /* النص الترحيبي */
+  .welcome-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+  
+  /* الحقول */
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    padding-right: 40px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #2d5c3f;
+    box-shadow: 0 0 0 2px rgba(45, 92, 63, 0.1);
+  }
+  
+  /* الأيقونات داخل الإدخال */
+  .input-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    cursor: pointer;
+  }
+  
+  /* زر تسجيل الدخول */
+  .btn-login {
+    background: #2d5c3f;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-login:hover:not(.disabled-btn) {
+    background: #244a32;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* زر تسجيل الدخول غير مفعل */
+  .btn-login.disabled-btn {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
+    cursor: not-allowed;
+    opacity: 0.7;
+    box-shadow: none;
+    transform: none !important;
+  }
+  
+  /* نص "أو المتابعة مع" */
+  .or-text {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .or-text::before,
+  .or-text::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 10px;
+  }
+  
+  /* حاوية تسجيل الدخول بجوجل */
+  .google-login-container {
+    position: relative;
+    margin: 15px 0;
+  }
+  
+  /* مؤشر التحميل */
+  .google-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #2d5c3f;
+    z-index: 1;
+  }
+  
+  /* رابط نسيان كلمة المرور */
+  .forget-password-container {
+    text-align: right;
+    margin: 15px 0;
+  }
+  
+  .forget-password-link {
+    font-size: 13px;
+    color: #2d5c3f;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .forget-password-link:hover {
+    color: #244a32;
+    text-decoration: underline;
+  }
+  
+  /* رابط التسجيل */
+  .signup-link {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .signup-link a {
+    color: #2d5c3f;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .signup-link a:hover {
+    color: #244a32;
+    text-decoration: underline;
+  }
+  
+  /* رسائل الخطأ */
+  .error-text {
+    color: #e74c3c;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Google Login Button */
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .google-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .google-btn:hover {
+    background-color: #f9f9f9;
+    border-color: #ddd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
