@@ -1,45 +1,59 @@
-# تطبيق فحص أمراض النباتات
+# Plant Disease Detection Application
 
-تطبيق ويب يستخدم الذكاء الاصطناعي للكشف عن أمراض النباتات من خلال تحليل صور الأوراق.
+A web application that uses artificial intelligence to detect plant diseases through leaf image analysis.
 
-## المميزات
+## Features
 
-- واجهة مستخدم سهلة الاستخدام
-- نظام تسجيل دخول آمن للمشرفين
-- استعادة كلمة المرور
-- التحقق من البريد الإلكتروني
-- تحليل صور أوراق النباتات للكشف عن الأمراض
+- User-friendly interface
+- Secure admin login system
+- Password recovery
+- Email verification
+- Plant leaf image analysis for disease detection
 
-## التقنيات المستخدمة
+## Technologies Used
 
-- React.js
-- Formik للتحقق من النماذج
-- Framer Motion للرسوم المتحركة
-- React Router للتنقل
-- Axios للطلبات HTTP
-- React-Toastify للإشعارات
+- React.js - Frontend framework
+- Formik - Form validation
+- Framer Motion - Animations
+- React Router - Navigation
+- Axios - HTTP requests
+- React-Toastify - Notifications
 
-## التثبيت
+## Technical Requirements
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- Modern web browser
+
+## Installation
 
 ```bash
-# تثبيت التبعيات
+# Install dependencies
 npm install
 
-# تشغيل التطبيق في وضع التطوير
+# Run the app in development mode
 npm start
 ```
 
-## الاستخدام
+## Usage
 
-1. قم بتسجيل الدخول باستخدام حساب المشرف
-2. قم بتحميل صورة لورقة النبات المراد فحصها
-3. انتظر نتيجة التحليل
-4. اطلع على التشخيص وتوصيات العلاج
+1. Log in using admin credentials
+2. Upload a plant leaf image for analysis
+3. Wait for the analysis result
+4. View diagnosis and treatment recommendations
 
-## المساهمة
+## Contributing
 
-نرحب بمساهماتكم! يرجى اتباع الخطوات التالية:
+We welcome contributions! Please follow these steps:
 
-1. Fork المشروع
-2. إنشاء فرع للميزة الجديدة
-3. تقديم طلب Pull Request
+1. Fork the project
+2. Create a feature branch
+3. Submit a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support, please open an issue in the GitHub repository.
